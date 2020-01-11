@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+
+  
+  /* **********************************************************************************************************
+
+  For small
+
+  *************************************************************************************************************** */
+  
+  @media only screen and (min-width: 436px) and (max-width: 768px) {
+   
+    /* common */
+    .sm-space {
+        margin-bottom: 10px;
+    }
+    .modal {
+        position: fixed;
+        top: 10%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+    }
+
+    /* ================================== navbar ================================================ */
+    .collapse {
+        display: block;
+    }
+    .nav > li {
+        position: relative;
+        display: inline-block;
+    }
+    .navbar-nav li a {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .navbar-nav {
+        margin: 0px -15px;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #fff!important;
+        letter-spacing: 1px;
+        transform: translate(0, -2px);
+        background: transparent !important;
+    }
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+        z-index: 9999;
+    }
+
+    /* ================================== home ================================================ */
+
+
+    .home{
+        float: left;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+    }
+    .name {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #fff;
+        margin-top: 0px;
+        margin-bottom: 2px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .deg {
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+    .heading {
+        margin-top: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #131313;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+    }
+   
+   .sm-screen-links{
+            margin: 0;
+            padding: 0px;
+            text-align: left;
+        }
+        .sm-screen-links li{
+            display: block;
+            padding: 2px 0;
+            text-align: left;
+        }
+        .sm-links i{
+            padding: 5px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 12px;
+            transition: 0.4s;
+        }
+        .sm-links i.fa-facebook {
+            padding: 5px 8px;
+        }
+        .sm-links i.fa-twitter {
+            padding: 5px 5px;
+        }
+        .sm-links i.fa-linkedin {
+            padding: 5px 6px;
+        }
+        .sm-links i.fa-github {
+            padding: 5px 6px;
+        }
+        .vhtext {
+            color: #fff;
+            transform: rotate(-90deg);
+            letter-spacing: 1px;
+            margin-bottom: 70px;
+            margin-left: -50px;
+            font-weight: 300;
+            font-size: 11px;
+        }
+
+        section {
+            position: relative;
+            padding: 40px 0px;
+            float: left;
+            width: 100%;
+        }
+
+    /* ================================== about ================================================ */
+
+
+        .sppara {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #adadad;
+        }
+        .para {
+            line-height: 20px;
+            color: #525252;
+            letter-spacing: 1px;
+            font-size: 13px;
+        }
+        .about-card {
+            float: left;
+            width: 100%;
+            background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(../images/homebg.jpg) left bottom;
+            background-size: cover;
+           border-radius: 10px;
+            box-shadow: 0px 0px 20px 5px #DDD;
+            margin-bottom: 20px;
+        }
+        .tech-box {
+            border: 14px solid #9898981c;
+            padding: 10px;
+            margin-bottom: 25px;
+        }
+
+    /* ================================== portfolio ================================================ */
+
+    .portfolio-box{
+        display: block;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      .portfolio-box-overlay-content p{
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      .visit-button>i{
+        padding: 10px 11px;
+        background-image: linear-gradient(to right, #00dbde , #fc00ff);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 13px;
+        transition: 0.5s;
+      }
+      .portfolio-box-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.85);
+        height: 55px;
+        padding: 10px;
+        transition: all 0.4s;
+    }
+
+    /* ================================== contact us ================================================ */
+     
+    
+        .contact-form-box .form-control {
+            height: 40px;
+            border-radius: 0px;
+            background: transparent;
+            border: 1px solid #fff;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        .contact-form-box {
+            float: left;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .contact-details-box p.details {
+            color: #fff;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        .contact-details-box h2 {
+            color: #fff;
+            font-family: 'Raleway', sans-serif;
+            margin-bottom: 20px;
+            font-size: 20px;
+            margin-top: 0px;
+        }
+}
+
+
+ /* **********************************************************************************************************
+
+  For xtra small
+
+  *************************************************************************************************************** */
+  @media only screen and (min-width: 0px) and (max-width: 435px) {
+   
+    /* common */
+    .sm-space {
+        margin-bottom: 8px;
+    }
+   
+
+    /* ================================== navbar ================================================ */
+    .collapse {
+        display: block;
+    }
+    .nav > li {
+        position: relative;
+        display: inline-block;
+    }
+    .navbar-nav li a {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        padding-left: 7px;
+        padding-right: 7px;
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .navbar-nav {
+        margin: 0px -15px;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #fff!important;
+        letter-spacing: 1px;
+        transform: translate(0, -2px);
+        background: transparent !important;
+    }
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        letter-spacing: 0.8px;
+        z-index: 9999;
+    }
+
+    /* ================================== home ================================================ */
+
+
+    .home{
+        float: left;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+    }
+    .name {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #fff;
+        margin-top: 0px;
+        margin-bottom: 2px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .deg {
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+    .heading {
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #131313;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+    }
+   
+   .sm-screen-links{
+            margin: 0;
+            padding: 0px;
+            text-align: left;
+        }
+        .sm-screen-links li{
+            display: block;
+            padding: 2px 0;
+            text-align: left;
+        }
+        .sm-links i{
+            padding: 5px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 10px;
+            transition: 0.4s;
+        }
+        .sm-links i.fa-facebook {
+            padding: 5px 8px;
+        }
+        .sm-links i.fa-twitter {
+            padding: 5px 5px;
+        }
+        .sm-links i.fa-linkedin {
+            padding: 5px 6px;
+        }
+        .sm-links i.fa-github {
+            padding: 5px 6px;
+        }
+        .vhtext {
+            color: #fff;
+            transform: rotate(-90deg);
+            letter-spacing: 1px;
+            margin-bottom: 70px;
+            margin-left: -50px;
+            font-weight: 300;
+            font-size: 11px;
+        }
+
+        section {
+            position: relative;
+            padding: 40px 0px;
+            float: left;
+            width: 100%;
+        }
+
+    /* ================================== about ================================================ */
+
+
+        .sppara {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #adadad;
+        }
+        .para {
+            line-height: 18px;
+            color: #525252;
+            letter-spacing: 1px;
+            font-size: 11px;
+        }
+        .about-card {
+            float: left;
+            width: 100%;
+            background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(../images/homebg.jpg) left bottom;
+            background-size: cover;
+           border-radius: 10px;
+            box-shadow: 0px 0px 20px 5px #DDD;
+            margin-bottom: 20px;
+        }
+        .tech-box {
+            border: 10px solid #9898981c;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+    /* ================================== portfolio ================================================ */
+
+
+    .portfolio-box{
+        display: block;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .portfolio-box-overlay-content p{
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+      .portfolio-box-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.85);
+        height: 55px;
+        padding: 10px;
+        transition: all 0.4s;
+    }
+      .visit-button>i{
+        padding: 10px 11px;
+        background-image: linear-gradient(to right, #00dbde , #fc00ff);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 11px;
+        transition: 0.5s;
+      }
+        .nav-pills > li > a {
+            background: #fff;
+            background-size: 200% auto;
+            color: #fc00ff;
+            margin-right: 5px;
+            transition: 0.5s;
+            border-radius: 15px;
+            padding: 5px 15px;
+        }
+
+    /* ================================== contact us ================================================ */
+     
+    
+        .contact-form-box .form-control {
+            height: 40px;
+            border-radius: 0px;
+            background: transparent;
+            border: 1px solid #fff;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        .contact-form-box {
+            float: left;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .contact-details-box p.details {
+            color: #fff;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        .contact-details-box h2 {
+            color: #fff;
+            font-family: 'Raleway', sans-serif;
+            margin-bottom: 20px;
+            font-size: 20px;
+            margin-top: 0px;
+        }
+}
